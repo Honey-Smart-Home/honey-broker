@@ -1,0 +1,23 @@
+{
+  "name": "honey-broker",
+  "version": "0.0.1",
+  "description": "mqtt broker",
+  "main": "index.js",
+  "repository": "https://github.com/Honey-Smart-Home/honey-broker",
+  "author": "Drischdaan",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "aedes": "^0.45.1",
+    "aedes-server-factory": "^0.1.2",
+    "dotenv": "^8.2.0",
+    "tslog": "^3.2.0"
+  }
+}
